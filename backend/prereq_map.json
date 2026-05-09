@@ -1,0 +1,19 @@
+{
+  "edges": [
+    {"from": "Arrays", "to": "Recursion"},
+    {"from": "Arrays", "to": "BST Basics"},
+    {"from": "Recursion", "to": "BST Basics"},
+    {"from": "BST Basics", "to": "BST Insert"},
+    {"from": "BST Insert", "to": "BST Delete"},
+    {"from": "Recursion", "to": "BST Delete"},
+    {"from": "BST Basics", "to": "Tree Traversal"},
+    {"from": "Recursion", "to": "Tree Traversal"},
+    {"from": "Recursion", "to": "Graphs"},
+    {"from": "Stacks", "to": "Graphs"},
+    {"from": "Queues", "to": "Graphs"},
+    {"from": "Arrays", "to": "Heaps"},
+    {"from": "BST Basics", "to": "Heaps"},
+    {"from": "Arrays", "to": "Hashing"},
+    {"from": "Linked List", "to": "Hashing"}
+  ]
+}

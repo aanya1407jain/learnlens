@@ -1,0 +1,25 @@
+{
+  "course": "DSA Domination Cohort",
+  "weeks": [
+    {"week": 1, "concepts": ["Time Complexity", "Space Complexity", "Big-O Notation"]},
+    {"week": 2, "concepts": ["Arrays", "2D Arrays", "ArrayList"]},
+    {"week": 3, "concepts": ["Recursion", "Base Case", "Call Stack"]},
+    {"week": 4, "concepts": ["Strings", "StringBuilder"]},
+    {"week": 5, "concepts": ["Linked List", "Singly Linked List", "Doubly Linked List"]},
+    {"week": 6, "concepts": ["Stacks", "Queues", "Deque"]},
+    {"week": 7, "concepts": ["BST Basics", "BST Insert", "BST Delete", "Tree Traversal"]},
+    {"week": 8, "concepts": ["Heaps", "Priority Queue"]},
+    {"week": 9, "concepts": ["Hashing", "HashMap", "HashSet"]},
+    {"week": 10, "concepts": ["Graphs", "BFS", "DFS", "Dijkstra"]}
+  ],
+  "prerequisites": {
+    "Recursion": ["Arrays"],
+    "BST Basics": ["Arrays", "Recursion"],
+    "BST Insert": ["BST Basics"],
+    "BST Delete": ["BST Insert", "Recursion"],
+    "Tree Traversal": ["BST Basics", "Recursion"],
+    "Graphs": ["Recursion", "Stacks", "Queues"],
+    "Heaps": ["Arrays", "BST Basics"],
+    "Hashing": ["Arrays", "Linked List"]
+  }
+}
